@@ -1,0 +1,20 @@
+<div class="content">
+    <div class="nameAndAmount">
+        <label for="">Name</label><br>
+        <input type="text" [(ngModel)] = "productName" >
+    </div>
+    <div class="nameAndAmount" >
+        <label for="">Amount</label><br>
+        <input type="text"[(ngModel)] = "productAmount" >
+    </div>
+    <div class="buttonsDiv">
+        <button class="buttons" (click)="addProduct()">Add</button>
+        <button class="buttons" (click)="deleteProduct()">Delete</button>
+        <button class="buttons" (click)="clearProduct()">Clear</button>
+    </div>
+    <div class="products">
+        <div *ngFor="let array of product">
+            {{array.name}}({{array.amount}})
+        </div>
+    </div>
+</div>

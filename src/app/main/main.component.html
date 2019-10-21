@@ -1,0 +1,10 @@
+<div class="mainArray">
+    <div *ngFor="let array of serverArray" >
+        <div>
+            <p class="nameArray">{{array.name}}</p>
+            <p>{{array.body}}</p>
+        </div>
+        <img [src]="array.image" alt="">
+    </div>
+    <p>recipe-item works!</p>
+</div>

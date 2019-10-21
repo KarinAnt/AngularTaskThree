@@ -1,0 +1,19 @@
+.header{
+    width: 100%;
+    background-color: aliceblue;
+    font-size:18px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: gray;
+    border-bottom: 1px solid silver;
+}
+.header>ul{
+    display: flex;
+    width: 30%;
+    list-style: none;
+    justify-content: space-between;
+}
+.header li:nth-child(1){
+    font-size: 20px;
+}

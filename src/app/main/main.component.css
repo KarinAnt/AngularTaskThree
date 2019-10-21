@@ -1,0 +1,21 @@
+.mainArray{
+    width: 100%;
+    padding-top:10px;
+    border-top: 1px solid silver;
+    margin-top: 20px;
+}
+.mainArray>div{
+    width: 98%;
+    border: 1px solid silver;
+    display: flex;
+    justify-content: space-between;
+    padding:1%;
+}
+.mainArray img{
+    width: 70px;
+    height: 70px;
+}
+.nameArray{
+    font-weight: bold;
+    font-size: 18px;
+}

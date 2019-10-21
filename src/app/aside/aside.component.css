@@ -1,0 +1,16 @@
+.aside{
+    width: 100%;
+}
+.aside>p:nth-child(1){
+    font-weight: bold;
+    font-size: 2em;
+}
+.aside button{
+    background-color: mediumblue;
+    color: white;
+    font-size: 17px;
+    border-radius:10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
